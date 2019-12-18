@@ -6,7 +6,9 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'index.js'
+    filename: 'index.js',
+    libraryTarget: 'umd',//打包方式 amd
+    umdNamedDefine: true 
   },
   module: {
     rules: [

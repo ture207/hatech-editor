@@ -1,7 +1,7 @@
 {
-  "name": "editor",
+  "name": "hatech-editor",
   "description": "A Vue.js project",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "author": "w",
   "license": "MIT",
   "main": "dist/index.js",
